@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import streamlit as st
 from openai import OpenAI
+from getpass import getpass
 # from load_openAIClient import client
 
 st.set_page_config(page_title="철도 민원 AI 어시스턴트", layout="wide")
